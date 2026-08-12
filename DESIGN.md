@@ -13,10 +13,11 @@
 - Main controls: Bits, Reduce, Curve, Dither, AntiAlias, Motion, Mix.
 
 ## Unified visual system
-- 960x540 resizable canvas with preserved aspect ratio.
+- 640x360 resizable canvas with preserved aspect ratio, a 4px base grid, and 8px group spacing.
 - Seven-column single-row parameter grid with textual values and native host gestures.
-- Black/white/gray only; square `fillRect` geometry, scanlines, grid bars, no gradients, glow, rounded cards, or flashing.
-- Standalone-only audition buttons and 32-step input/output meters; hosted editors expose no generator controls.
+- Fixed EHL palette: ink `#050505`, low `#2A2A2A`, mid `#8A8A86`, paper `#F2F2F0`.
+- Square `fillRect` geometry, scanlines, grid bars, and clockwise 16-step parameter indicators; no gradients, glow, rounded cards, or flashing.
+- Standalone-only audition buttons and 24-step input/output meters; hosted editors expose no generator controls.
 
 ## Interaction and accessibility
 - High-contrast text and values remain visible at all times.
