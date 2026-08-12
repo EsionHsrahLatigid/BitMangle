@@ -140,7 +140,7 @@ yup::AudioProcessorEditor* BitManglePlugin::createEditor()
 #if BITMANGLE_HEADLESS_TEST
     return nullptr;
 #else
-    return new ParameterGridEditor (*this, "BitMangle", "Quantizing sample-rate reduction effect with standalone-only audition.", 0xffd8d8d8u);
+    return new ParameterGridEditor (*this, "BitMangle", "Quantizing sample-rate reduction effect with standalone-only audition.", 0xfff2f2f0u);
 #endif
 }
 float BitManglePlugin::getInputPeakLevel() const noexcept { return static_cast<float> (inputPeakMilli.load (std::memory_order_relaxed)) * 0.001f; }
