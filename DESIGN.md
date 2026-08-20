@@ -4,7 +4,6 @@
 - Status: Active
 - Last refreshed: 2026-08-12
 - Primary surfaces: YUP Standalone, VST3, AUv2 editor
-- Evidence: quantization/dither references and the nine-effect Digital Harsh Noise UI survey
 
 ## Product
 - Goal: expose quantization topology as an aggressive, repeatable performance instrument for incoming audio.

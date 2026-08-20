@@ -1,6 +1,5 @@
 # BitMangle
 
-BitMangle is a YUP stereo bitcrusher and sample-rate reducer for Digital Harsh Noise. It combines linear-to-log quantizer curvature, nonlinear sample hold, deterministic TPDF dither with bounded error feedback, adjustable prefiltering, a moving stereo quantization grid, and dry/wet blend. Dither and grid motion are signal-gated so hosted silence remains silent; Standalone adds its audition source and meters only at compile time.
 
 ## Identity and formats
 
